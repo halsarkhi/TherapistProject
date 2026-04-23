@@ -1,0 +1,108 @@
+# ==============================================
+# .NET Backend
+# ==============================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+.vscode/
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# EF Core (do NOT ignore migrations — keep them in repo)
+# Migrations/ folders are tracked
+
+# Secrets
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+*.pfx
+*.key
+
+# ==============================================
+# Angular Frontend
+# ==============================================
+therapist-center-ui/node_modules/
+therapist-center-ui/dist/
+therapist-center-ui/.angular/
+therapist-center-ui/.sass-cache/
+therapist-center-ui/connect.lock
+therapist-center-ui/coverage/
+therapist-center-ui/libpeerconnection.log
+therapist-center-ui/npm-debug.log
+therapist-center-ui/yarn-error.log
+therapist-center-ui/.env
+therapist-center-ui/.env.local
+therapist-center-ui/.env.*.local
+therapist-center-ui/testem.log
+therapist-center-ui/typings/
+
+# Build/dependency folders anywhere
+**/node_modules/
+**/dist/
+**/.angular/
+
+# ==============================================
+# OS / Editor
+# ==============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# ==============================================
+# Misc
+# ==============================================
+*.swp
+*.swo
+*~
+
+# Claude Code local config
+.claude/
+
+# Test screenshots (one-off test artifacts)
+test-*.png
+test_*.png
+screen_*.png
+after_*.png
+before_*.png
+slots_*.png
+schedules_*.png
